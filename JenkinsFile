@@ -1,10 +1,12 @@
-agent any
-stage('Test1') {
-  steps {
-    input {
-      message 'dies ist ein test'
+pipeline {
+  agent any
+  stages {
+      stage('Test1') {
+          steps {
+            input {
+              message 'dies ist ein test'
+            }
+          }
+      }
     }
-  }
 }
-
-
