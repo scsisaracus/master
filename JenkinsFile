@@ -1,0 +1,10 @@
+agent any
+stage('Test1') {
+  steps {
+    input {
+      message 'dies ist ein test'
+    }
+  }
+}
+
+
