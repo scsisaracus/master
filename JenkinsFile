@@ -3,9 +3,7 @@ pipeline {
   stages {
       stage('Test1') {
           steps {
-            input {
-              message "Weiter??"
-            }
+            echo "Hallo"
           }
       }
     }
